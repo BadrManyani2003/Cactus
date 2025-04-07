@@ -137,7 +137,7 @@ input[type="checkbox"] {
 /* Hero Section */
 .hero {
   background-color: #f4f4f4;
-  padding: 60px 20px;
+  padding: 20px 20px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -180,6 +180,7 @@ input[type="checkbox"] {
   text-decoration: none;
   border: 2px solid #ffddab;
   transition: 0.3s ease-in;
+  margin-top: 2rem;
 }
 
 .hero__btn:hover {
