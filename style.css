@@ -446,7 +446,9 @@ textarea {
   .contact__container {
     flex-direction: column;
   }
-
+  .contact__image{
+    display: none;
+  }
   .contact__form {
     width: 100%;
     max-width: 400px;

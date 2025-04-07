@@ -1,3 +1,15 @@
+document.addEventListener("DOMContentLoaded", () => {
+  const menuCheckbox = document.getElementById("click");
+  const menuLinks = document.querySelectorAll("nav ul li a");
+
+  menuLinks.forEach(link => {
+    link.addEventListener("click", () => {
+      if (menuCheckbox) {
+        menuCheckbox.checked = false;
+      }
+    });
+  });
+});
 
   // Générer dynamiquement les cactus
   const cacti = [
