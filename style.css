@@ -295,6 +295,26 @@ input[type="checkbox"] {
     grid-template-columns: repeat(1, 1fr);
   }
 }
+/* Section Map */
+.map-section {
+  padding: 60px 20px;
+  background-color: #f7f7f7;
+  text-align: center;
+}
+
+.map-title {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #2e7d32;
+}
+
+.map-container {
+  max-width: 95%;
+  margin: 0 auto;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+  overflow: hidden;
+}
 
 /* Gallery Section */
 .gallery {
